@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+}
+
+#add{
+    background-color: green;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+    padding: 5px;
+}
+
+#delete{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    padding: 5px;
+
+}
+
+ul li{
+    height: 25px;
+    border: 1px solid #cccc;
+    width: 250px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

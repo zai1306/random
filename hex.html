@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>BG-Changer</title>
+    <style>
+        .container-fluid{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-around">
+        <a class="navbar-brand" href="#">Color Flipper</a>
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="hex.html">Hex</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bg-changer.html">Simple</a>
+            </li>
+             
+          </ul>
+    </nav>
+    <div class="container-fluid">
+        <h2>Background Changer: <span class="color"> #FA8072 </span> </h2>
+        <button class="btn btn-success" id="btn">Ckick Me</button>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="hex.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- <script>
+       var colors = ['#FA8072', '#E9967A', '#3BB39F', '#B33B8B', '#5D6D7E'];
+
+       var btn = document.querySelector("#btn");
+       var color = document.querySelector(".color");
+
+       btn.addEventListener('click', () =>{
+           var randomColor = randomNumber();
+
+           document.body.style.backgroundColor = colors[randomColor];
+           color.textContent = colors[randomColor];
+       })
+
+       function randomNumber (){
+          return Math.floor(Math.random() * colors.length);
+       }
+
+    </script> -->
+
+
+
+</body>
+</html>
